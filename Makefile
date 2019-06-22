@@ -25,7 +25,7 @@ LC += rcs
 
 CC := gcc -march=native -mtune=native -Ofast
 CC_DEBUG := gcc -march=native -mtune=native -g3 -D DEBUG -fsanitize=address
-CFLAGS := -Wall -Wextra -Werror -Wunused -Wpedantic
+CFLAGS := -Wall -Wextra -Werror -Wunused
 INC := -I $(CURDIR)/includes/
 
 SRC_D := srcs/
