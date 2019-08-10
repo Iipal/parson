@@ -6,7 +6,7 @@
 #    By: tmaluh <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/12 13:21:37 by tmaluh            #+#    #+#              #
-#    Updated: 2019/06/14 13:47:31 by tmaluh           ###   ########.fr        #
+#    Updated: 2019/08/11 01:09:27 by tmaluh           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ endif
 LC += rcs
 
 CC := gcc -Ofast
-CC_DEBUG := gcc -g3 -D DEBUG -fsanitize=address
+CC_DEBUG := gcc -g3 -D DEBUG
 CFLAGS := -Wall -Wextra -Werror -Wunused
 INC := -I $(CURDIR)/includes/
 
